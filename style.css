@@ -18,7 +18,7 @@ body{
 }
 
 .colaboradores{
-    position: fixed;
+    position: none;
     bottom: 0;
     width: 100%;
     text-align: center;
@@ -148,10 +148,18 @@ button {
     padding: 14px 30px;
     border: 1px solid rgba(0, 0, 0, 0.16);
     border-radius: 14px;
-    background: rgb(21, 91, 21);
+    background: rgb(46, 98, 50);
     color: white;
     font-weight: 700;
     cursor: pointer;
+}
+
+.botao{
+    margin-top: 20px;
+}
+
+.telefone{
+    margin-top: 20px;
 }
 
 button:hover {
@@ -174,4 +182,13 @@ button:hover {
     max-width: 100%;
     border-radius: 16px;
     display: inline-block;
+}
+
+.servicos {
+    margin: 20px 40px;
+    padding: 32px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    text-align: center;
 }
